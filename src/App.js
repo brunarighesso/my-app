@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import React from "react";
+import Search from "./Search";
 
 function App() {
   return (
@@ -21,5 +23,5 @@ function App() {
     </div>
   );
 }
-
+<Search />;
 export default App;
