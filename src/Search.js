@@ -43,7 +43,7 @@ export default function Search() {
     return (
       <div>
         {form}
-        <ul>
+        <ul className="result">
           <li>
             Temperature: {Math.round(weather.temperature)}°C |{" "}
             <a href="/" onClick={convertToFahrenheit}>
